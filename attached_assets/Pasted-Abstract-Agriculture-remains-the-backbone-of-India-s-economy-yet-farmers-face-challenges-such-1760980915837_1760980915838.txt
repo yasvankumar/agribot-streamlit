@@ -1,0 +1,45 @@
+Abstract
+ • Agriculture remains the backbone of India’s economy, yet farmers face challenges 
+such as lack of expert guidance, limited regional language support, delayed 
+disease diagnosis, and fragmented advisory systems. Existing solutions often 
+handle one problem at a time—either disease detection or market updates—but 
+lack integration and multilingual accessibility.
+ • AgriBot is designed as a bilingual (Tamil & English) AI-powered virtual 
+assistant that integrates Machine Learning (for crop disease detection), 
+anomaly detection models (for unseen/rare issues), Natural Language 
+Processing (for conversational support), and real-time APIs (weather + 
+market prices) into a single accessible platform via WhatsApp and Web.
+Introduction
+ • Agriculture contributes significantly to India’s GDP, yet farmers in rural regions 
+still rely on traditional methods.
+ • Common challenges:
+ • Lack of immediate expert advisory in regional languages.
+ • Crop losses due to late disease and pest identification.
+ • Fragmented systems → separate apps for disease detection, weather, and 
+market updates.
+ • Research shows that multilingual support improves adoption of digital tools 
+among farmers.
+ • AgriBot addresses these challenges by providing an integrated, farmer-friendly 
+solution.
+Product Vision Statement
+ • To build a scalable, bilingual, AI-driven virtual assistant that combines disease 
+detection, anomaly detection, real-time advisory, and conversational support into a 
+single accessible platform, helping farmers improve yield, reduce crop loss, and 
+adopt sustainable farming practices.
+• Disease Detection
+ Product Backlogs
+ • Train CNN/YOLO on PlantVillage dataset (~54k images, 14 crops, 26 diseases).
+ • Classify crop disease from uploaded leaf images.
+ • Anomaly Detection
+ • Autoencoder + Isolation Forest for unknown patterns.
+ • Helps flag new diseases, nutrient deficiencies, or pest attacks.
+ • Conversational Agent
+ • Tamil-English support using LLM fine-tuning or RAG.
+ • Understands farmer queries → responds with contextual advice.
+ • Advisory Hub Integration
+ • Weather API (OpenWeather/IMD) → forecasts & rainfall prediction.
+ • Market API (Agmarknet, mandi prices) → real-time price updates.
+ • Cultivation techniques & fertilizer schedules.
+ • Accessibility
+ • WhatsApp bot (low data usage, rural-friendly).
+ • Web interface for broader access
